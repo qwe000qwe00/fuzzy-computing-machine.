@@ -22,12 +22,13 @@
 	</thead>
 	<tbody>
 		<%
-			Map<String, AlbasengVO> albaMap = SimpleFormProcessServlet.albasengs;
-			for(Entry<String, AlbasengVO> entry : albaMap.entrySet()){
-				String pattern = "<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>";
-				AlbasengVO alba = entry.getValue();
-				out.println(String.format(pattern, alba.getCode(), alba.getName(), alba.getAddress(), alba.getTel()));
-			}
+			//에러남
+// 			Map<String, AlbasengVO> albaMap = SimpleFormProcessServlet.albasengs;
+// 			for(Entry<String, AlbasengVO> entry : albaMap.entrySet()){
+// 				String pattern = "<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>";
+// 				AlbasengVO alba = entry.getValue();
+// 				out.println(String.format(pattern, alba.getCode(), alba.getName(), alba.getAddress(), alba.getTel()));
+// 			}
 		%>
 	</tbody>
 </table>
